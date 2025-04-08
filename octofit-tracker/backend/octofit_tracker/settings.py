@@ -25,7 +25,12 @@ SECRET_KEY = "django-insecure-50bqj8w*1hct#21r4gk89!l)#xyys0aimk!fcqh6ue=bvlvws4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = [
+    'obscure-carnival-gxx75p4gp9frv6-8000.app.github.dev',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
